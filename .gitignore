@@ -1,3 +1,4 @@
 .env.sentry-build-plugin
 node_modules/
 dist/
+.idea/
