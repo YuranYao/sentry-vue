@@ -4,7 +4,7 @@ import App from './App.vue'
 
 
 const app = createApp(App)
-const releaseName = 'sentry-vue@1.0.0'
+const releaseName = 'sentry-vue@1.0.1'
 
 Sentry.init({
   app,

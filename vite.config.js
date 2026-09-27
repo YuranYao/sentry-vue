@@ -2,7 +2,7 @@ import { sentryVitePlugin } from "@sentry/vite-plugin";
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-const releaseName = 'sentry-vue@1.0.0'
+const releaseName = 'sentry-vue@1.0.1'
 
 export default defineConfig({
   plugins: [vue(), sentryVitePlugin({
